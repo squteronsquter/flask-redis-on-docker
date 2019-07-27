@@ -37,7 +37,9 @@ end
 
 ## Real workflow with commands
 
-### all code is in /Volumes/GO/VAGRANT/Centos7 -- Dockerfile and shared folder "data" in which folder "app" is where all app files are.
+### All code is on my local drive /Volumes/GO/VAGRANT/Centos7
+
+### With Dockerfile and shared folder "data" in which folder "app" is where all app code lives. This folder will be shared with Vagrant macjine.
 
 ```
 cd /Volumes/GO/VAGRANT/Centos7
@@ -61,4 +63,6 @@ http://192.168.33.88:5000/
 
 ### Above code is without data persitence for redis server so counts will be reset to 1
 
-### Happy coding Gray Monk
+### Happy coding
+
+### Gray Monk
