@@ -39,7 +39,7 @@ end
 
 ### All code is on my local drive /Volumes/GO/VAGRANT/Centos7
 
-### With Dockerfile and shared folder "data" in which folder "app" is where all app code lives. This folder will be shared with Vagrant macjine.
+### With Dockerfile and shared folder "data" in which folder "app" is where all app code lives. This folder will be shared with Vagrant machine.
 
 ```
 cd /Volumes/GO/VAGRANT/Centos7
