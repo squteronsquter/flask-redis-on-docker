@@ -10,3 +10,4 @@ redis = FlaskRedis(app)
 @app.route('/')
 def counter():
     return str(redis.incr('web1_counter'))
+
